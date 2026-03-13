@@ -1,16 +1,34 @@
-## Hi there 👋
+## Hi, I'm Jomar 👋
 
-<!--
-**jomarpueyo/jomarpueyo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Network and Security Specialist at Huntsville ISD** — I manage enterprise Google Workspace infrastructure for 16,000+ users and devices, and build automation tools that streamline IT operations across a K-12 school district in Texas.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### What I work on
+
+- 🖥️ **Chromebook fleet management** — GAM-based compliance monitoring + PowerShell health dashboards for 16,000+ devices
+- 👤 **Staff departure workflows** — fully automated off-boarding: Drive archival, orphaned file remediation, access cleanup
+- 🚨 **Incident response tooling** — compromised account remediation covering containment, blast radius, OAuth revocation & documentation
+- 🔔 **Webhook & notification integrations** — IncidentIQ → Google Chat via cardsV2, bidirectional Pub/Sub exploration
+- 🔒 **Email security & compliance** — Gmail compliance rule design, 3-phase attachment enforcement rollout with change management docs
+- 📋 **Legal & compliance tooling** — Google Vault mbox → HTML viewer for Public Information Requests
+
+---
+
+### Tech stack
+
+`PowerShell` `Python` `Google Workspace` `GAM` `Bash` `HTML/JS`  
+`Active Directory` `Meraki MDM` `KACE` `Chrome OS` `incidentIQ` `Cisco Duo MFA`
+
+---
+
+### Certifications
+
+- CompTIA CySA+ · Security+ · Network+ · A+
+- CSAP · CSIS · CIOS — valid through Dec 2028
+
+---
+
+### Connect
+
+[LinkedIn](https://linkedin.com/in/jomarpueyo) · [Email](mailto:jpueyo.work@gmail.com) · Willis, TX
