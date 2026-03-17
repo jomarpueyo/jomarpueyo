@@ -1,4 +1,4 @@
-## Hi, I'm Jomar 👋
+## Well, Hello there! 👋
 
 **Network and Security Specialist at Huntsville ISD** — I manage enterprise Google Workspace infrastructure for 7,000+ users and devices, and build automation tools that streamline IT operations across a K-12 school district in Texas.
 
