@@ -1,41 +1,53 @@
 # Jomar Pueyo
 
-Network and Security Specialist at Huntsville ISD. I work in Google Workspace with an environment of ~7,000 staff and students and ~10,000 devices across the district. I write tooling that assists in obtaining the posture of the district and addressing where the gaps may be.
+Network & Security Specialist at Huntsville ISD in Texas. I build Python and PowerShell tooling that gives a K-12 district enterprise-grade visibility into its Google Workspace (~7,000 staff and students, ~10,000 devices) on a school budget.
 
-K-12 districts get the same threat surface as enterprise — phishing, email compromise, mass-download, OAuth abuse, deprovisioned accounts coming back
-online on a limited budget. I look to put in place digitial protection on students and staff from malicious activity.
+Schools face the same threats as any enterprise: phishing, account compromise, OAuth abuse, mass downloads and deprovisioned accounts that come back to life. My job is to catch them early and keep student and staff data safe.
 
-## Featured — gws-monitor
+## Featured
 
-A Google Workspace security monitor tool I envisioned to have better visibility on the posture of the district and to be more informed on the activity happening on a day to day  basis.
+### gws-monitor · *private*
 
-- 16 detectors against the Admin SDK Reports API — login, drive, gmail filters, OAuth tokens, admin grants, SAML, calendar, groups, mobile, device fleet, behavior baselines, messaging-domain trust ladder 
-- Calendar-aware baselining that knows about testing weeks and the K-12 summer dip — a real outage during summer still alerts
-- VIP / Tier 1 / Tier 2 watch lists with auto-graduation
-- FERPA retention — 7-year audit log with tamper-evident hash chain, purge-user CLI, per-app retention floors
-- Offline test harness + per-detector coverage gate in CI alongside ~2,000 unit tests — the surface that keeps AI-assisted development honest
+A security monitor for Google Workspace that shows the district what is happening across its accounts and data every day.
 
-Python · SQLite · pytest · GAM · Reports API
+- **16 detectors** on the Admin SDK Reports API: logins, Drive, Gmail filters, OAuth tokens, admin grants, SAML, calendar, groups, mobile and device fleet, behavior baselines and messaging-domain trust
+- **School-calendar-aware baselines** that expect testing weeks and the summer dip, without hiding a real incident
+- **Tiered watch lists** (VIP / Tier 1 / Tier 2) with automatic promotion
+- **FERPA retention**: 7-year audit log with a tamper-evident hash chain, per-user purge tooling and per-app retention floors
+- **~2,000 unit tests**, an offline test harness and a per-detector coverage gate in CI
 
-Private for now... 
+`Python` `SQLite` `pytest` `GAM` `Reports API`
+
+The source is private because it runs against district data. I'm happy to walk through it in an interview.
+
+### [slowroads-bridge](https://github.com/jomarpueyo/slowroads-bridge)
+
+A side project that lets you ride the driving game *Slow Roads* on a Wahoo KICKR CORE smart trainer. It reads power over Bluetooth FTMS, simulates a road bike at 20 Hz, drives the game through a virtual Xbox controller and sets the trainer's resistance (ERG or road feel). It includes an in-game overlay, ride history with charts, hash-locked dependencies and a written security review.
+
+`Python` `Bluetooth LE` `ViGEmBus` `pytest`
 
 ## Other work
 
-- Compromised-account runbook: automated containment, blast-radius enumeration, OAuth revocation, evidence capture
-- Staff off-boarding pipeline: Drive archival, orphaned-file remediation, access cleanup, fully audited
-- Chromebook fleet health: GAM compliance scans + PowerShell dashboards
-- Gmail attachment policy: three-phase enforcement, no help-desk wave
-- Google Vault - HTML viewer for Texas Public Information Requests
-- IncidentIQ - Google Chat cardsV2 integration
+Internal to the district:
+
+- **Compromised-account response**: automated containment, blast-radius enumeration, OAuth token revocation and evidence capture
+- **Staff off-boarding**: Drive archival, orphaned-file cleanup and access removal, fully audited
+- **Chromebook fleet health**: GAM compliance scans with PowerShell dashboards
+- **Gmail attachment policy**: enforced in three phases without a wave of help-desk tickets
+- **Google Vault viewer**: HTML viewer for Texas Public Information Act requests
+- **IncidentIQ → Google Chat**: ticket alerts as Chat cardsV2 messages
 
 ## Stack
 
-Python · PowerShell · Bash · SQLite · GAM · Google Workspace Admin SDK · Active Directory · Meraki MDM · KACE · Chrome OS · IncidentIQ · Cisco Duo
+**Languages:** Python · PowerShell · Bash · SQLite<br>
+**Google:** Workspace Admin SDK · GAM · ChromeOS · Vault<br>
+**Endpoint & identity:** Active Directory · Cisco Duo · Meraki MDM · KACE<br>
+**Service desk:** IncidentIQ
 
-## Credentials
+## Certifications
 
-- CompTIA CySA+ · Security+ · Network+ · A+
-- CSAP · CSIS · CIOS — valid through Dec 2028
+CompTIA CySA+ · Security+ · Network+ · A+<br>
+CompTIA CSAP · CSIS · CIOS (active through Dec 2028)
 
 ## Contact
 
